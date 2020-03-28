@@ -1,0 +1,131 @@
+.dashNav
+{
+    height:4vw;
+    background-color:darkcyan;
+}
+.dashHeading
+{
+    font-size:1.8vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: -webkit-center;
+    padding-top: 2vh;
+    color:cornsilk;
+}
+#dashboard
+{
+    height:30.5vw;
+    background-color:rgb(218, 229, 230);
+   
+    .dashboardTop
+    {
+        padding-top:10vh;
+    }
+    .header{
+        margin-left:42%;
+        .formCSS
+        {
+            display:block;
+        }
+    .inputField
+    {
+      padding:10px;
+      border:0;
+      margin-top:2vw;
+      display: block;
+      font-weight:400;
+      font-size:1.5vw;
+      text-align:left;
+    }
+    .buttonStyle
+    {
+        padding:8px;
+        margin-top:2vw;
+        display:block;
+        width:15%;
+        margin-left:1.8vw;
+        color:white;
+        border:0px;
+        border-radius: 5px;
+        font-size:1.2vw;
+        font-weight:400;
+        cursor: pointer;
+        background-color: rgb(192, 33, 192);
+    }
+    .buttonStyle:hover {background-color:darkviolet;}
+}
+}
+table {
+    width: 100%;
+    background-color:lightgray;
+  }
+  .mat-header-row
+  {
+      background-color:darkcyan
+  }
+  .mat-header-cell
+  {
+      width:33%;
+      border-bottom:none;
+      text-align:center;
+      font-size:1.3vw;
+      font-family:sans-serif;
+      font-weight:400;
+      color:white;
+      font-size:18px;
+  }
+  .mat-cell
+  {
+      width:33%;
+      border-bottom:none;
+      text-align:center;
+  }
+  .NumOfPullReq
+  {
+    font-weight:500;
+    font-family: sans-serif;
+    float:left;
+    text-align: center;
+    width:33%;
+    font-size:1.5vw;
+    color:darkblue;
+  }
+  .mat-form-field
+  {
+      width:25%;
+  }
+  .NumOfComments
+  {
+    font-weight:500;
+    width:33%;
+    font-size:1.5vw;
+    font-family: sans-serif;
+    color:darkblue;
+    float:right;
+    text-align:center;
+  }
+  .mat-progress-spinner
+  {
+      position: fixed;
+      z-index: 999;
+      height: 10px;
+       -moz-outline-radius: 3px;
+      overflow: show;
+      margin: auto;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+  }
+  ::ng-deep .gitDash-snackbar
+  {
+    background-color:red;
+    color:white;
+    text-align:center;
+  }
+  .mat-input-element
+  {
+      font-size:1.5vw;
+      color:brown;
+      font-family:sans-serif;
+  }
